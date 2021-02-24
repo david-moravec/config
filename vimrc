@@ -317,7 +317,7 @@ set nu rnu
 "syntax enable
 "set background=dark
 "colorscheme solarized
-
+nnoremap <SPACE> <Nop>
 let mapleader=" "
 nnoremap <leader>gl :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>gf :YcmCompleter GoToDefinition<CR>
